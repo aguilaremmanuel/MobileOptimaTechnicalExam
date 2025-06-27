@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <section class="main">
+    <div class="login-cont">
+      <h1>Welcome, {{ username }}!</h1>
+      <p style="text-align:center; margin-top:15px;">
+        <a href="/logout">Logout</a>
+      </p>
+    </div>
+  </section>
+</body>
+</html>
